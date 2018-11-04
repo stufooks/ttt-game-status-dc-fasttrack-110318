@@ -22,4 +22,5 @@ def won?(board)
   end
 end
 
-won?(board)
+board = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
+p won?(board)
