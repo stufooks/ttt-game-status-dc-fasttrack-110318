@@ -18,7 +18,7 @@ WIN_COMBINATIONS =  [
   [2, 5, 8]
   ]
 
-def won?[board]
+def won?(board)
   WIN_COMBINATIONS.each do |arr|
     if arr[0] == arr[1] && arr[1] == arr[2]
       return true
