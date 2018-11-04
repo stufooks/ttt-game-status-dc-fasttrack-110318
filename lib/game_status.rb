@@ -5,8 +5,6 @@ end
 
 # Define your WIN_COMBINATIONS constant
 
-board = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
-
 WIN_COMBINATIONS =  [
   [0, 1, 2], 
   [3, 4, 5], 
@@ -28,4 +26,5 @@ def won?(board)
   end
 end
 
+board = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
 won?(board)
