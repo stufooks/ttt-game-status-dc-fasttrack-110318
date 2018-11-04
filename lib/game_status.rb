@@ -18,13 +18,8 @@ WIN_COMBINATIONS =  [
 
 def won?(board)
   WIN_COMBINATIONS.each do |arr|
-    if arr[0] == arr[1] && arr[1] == arr[2]
-      return true
-    else
-      return false
-    end
+    p arr[0]
   end
 end
 
-board = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
-p won?(board)
+won?(board)
