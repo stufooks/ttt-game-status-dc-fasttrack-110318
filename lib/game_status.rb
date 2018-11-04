@@ -18,9 +18,9 @@ WIN_COMBINATIONS =  [
 
 def won?(board)
   WIN_COMBINATIONS.each do |arr|
-    p arr[0]
+    win_index_1 = arr[0]
   end
 end
 
 board = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
-p won?(board)
+won?(board)
